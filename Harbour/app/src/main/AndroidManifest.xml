@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="harbour.cput.ac.za.harbour" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PackageProduct" >
+        </activity>
+        <activity
+            android:name=".PackageProductCreateTabActivity"
+            android:label="@string/title_activity_package_product_create_tab" >
+        </activity>
+        <activity
+            android:name=".PackageProductReadTabActivity"
+            android:label="@string/title_activity_package_product_read_tab" >
+        </activity>
+        <activity
+            android:name=".PackageProductDeleteTabActivity"
+            android:label="@string/title_activity_package_product_delete_tab" >
+        </activity>
+        <activity
+            android:name=".PackageProductUpdateTabActivity"
+            android:label="@string/title_activity_package_product_update_tab" >
+        </activity>
+        <activity
+            android:name=".PackageProductAllTabActivity"
+            android:label="@string/title_activity_package_product_all_tab" >
+        </activity>
+        <activity
+            android:name=".Container"
+            android:label="@string/title_activity_container" >
+        </activity>
+        <activity
+            android:name=".ContainerReadTabActivity"
+            android:label="@string/title_activity_container_read_tab" >
+        </activity>
+        <activity
+            android:name=".ContainerCreateTabActivity"
+            android:label="@string/title_activity_container_create_tab" >
+        </activity>
+        <activity
+            android:name=".ContainerUpdateTabActivity"
+            android:label="@string/title_activity_container_update_tab" >
+        </activity>
+        <activity
+            android:name=".ContainerDeleteTabActivity"
+            android:label="@string/title_activity_container_delete_tab" >
+        </activity>
+        <activity
+            android:name=".ContainerAllTabActivity"
+            android:label="@string/title_activity_container_all_tab" >
+        </activity>
+    </application>
+
+</manifest>
